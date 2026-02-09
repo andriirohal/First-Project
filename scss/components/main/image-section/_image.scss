@@ -5,10 +5,6 @@
 //first section of image and headings
 
 .big-container {
-    margin: 0 0 8rem 0;
-}
-
-.big-container {
     background-image: url('/images/DSC_8900\ 3\ \(1\).jpg');
     background-position: center;
     width: 100%;
@@ -19,7 +15,7 @@
     z-index: 10;
 }
 
-.big-heading,.medium-heading {
+.big-heading, .medium-heading {
     font-family: 'Romanovsky';
     text-align: center;
     color: root.$font_color_white;
@@ -51,7 +47,6 @@
     max-width: 700px;
 }
 
-
 .choose1 {
     font-family: 'Romanovsky';
     cursor: pointer;
@@ -74,13 +69,12 @@
 //second section of images
 
 .block-image {
-    margin: 8rem 0 8rem 0;
     @extend %flex_justify;
     flex-direction: column;
     &-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        gap: 10px;
         width: 100%;
     }
 }
@@ -99,10 +93,8 @@
     width: 100%;
     overflow: hidden;
     height: 100%;
-    gap: 20px;
+    gap: 10px;
     aspect-ratio: 32/14.5;
-    margin-bottom: 180px;
-    margin-top: 180px;
 }
 
 .img1 {
@@ -114,8 +106,7 @@
 .block-small-image {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 10px;
     object-fit: cover;
     aspect-ratio: 9/14.5;
 }
-

@@ -3,14 +3,20 @@
 @use "../../../mixins/placeholders" as *;
 
 .section3 {
-    margin: 8rem;
+    margin: 0 2rem 0 2rem;
+    margin-top: 180px;
+    margin-bottom: 180px;
 }
 
 .container-img {
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 18px;
+    gap: 20px;
+}
+
+.border-img1-for-mobile {
+    display: none;
 }
 
 .block-for-gap {

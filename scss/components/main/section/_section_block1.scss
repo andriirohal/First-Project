@@ -6,12 +6,15 @@
     @extend %flex_justify;
     flex-direction: column;
     align-items: center;
-    margin: 8rem;
+    margin: 0 2rem 0 2rem;
+    margin-top: 180px;
+    margin-bottom: 180px;
     &-block {
-       gap: 40px;
+       gap: 20px;
        @extend %flex_justify;
     }
 }
+
 
 .image {
     width: 100%;
@@ -54,6 +57,7 @@
     font-size: clamp(1.25rem, 1.25vw, 1.25rem);
     border: none;
     outline: none;
+    margin-top: 90px;
     background-color: root.$color_main_image;
     font-weight: 400;
     color: root.$font_color_white;

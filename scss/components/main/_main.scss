@@ -16,8 +16,6 @@
 @use "section/section_block2";
 @use "section/section_block3";
 @use "section/section_block4";
-@use "section/section_block5";
-@use "section/section_block6";
 
 //image 
 
@@ -26,3 +24,5 @@
 //media
 
 @use "media/media_laptop";
+@use "media/media_tablet";
+@use "media/media_mobile";

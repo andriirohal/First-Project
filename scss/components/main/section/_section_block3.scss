@@ -1,0 +1,31 @@
+@use "../../../base/root" as root;
+@use "../../../mixins/mixins" as mix;
+@use "../../../mixins/placeholders" as *;
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.block-for-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.of-img {
+    width: 100%;
+    max-width: 460px;
+    height: 100%;
+    max-height: 252px;
+}
+
+.of-img-h4 {
+    font-family: 'Romanovsky';
+    color: root.$color_main_image;
+    font-weight: root.$font_weight_nb;
+    padding-top: 20px;
+    font-size: clamp(1.25rem, 1.25vw, 1.25rem);
+    text-align: center;
+}

@@ -1,0 +1,122 @@
+@use "../../../base/root" as root;
+@use "../../../mixins/mixins" as mix;
+@use "../../../mixins/placeholders" as *;
+
+//first section of image and headings
+
+.big-container {
+    margin-bottom: 180px;
+}
+
+.big-container {
+    background-image: url('/images/DSC_8900\ 3\ \(1\).jpg');
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 630px;
+    display: grid;
+    place-content: center;
+    z-index: 10;
+}
+
+.big-heading,.medium-heading {
+    font-family: 'Romanovsky';
+    text-align: center;
+    color: root.$font_color_white;
+    font-weight: 400;
+}
+
+.some-text {
+    text-align: center;
+    font-size: clamp(1rem, 1vw, 1rem);
+    color: root.$font_color_white;
+    padding-top: 20px;
+    line-height: 140%;
+    font-weight: root.$font_weight_sm;
+}
+
+.big-heading {
+    font-size: clamp(3.2rem, 3.2vw, 3.2rem);
+}
+
+.medium-heading {
+    padding-top: 16px;
+    padding-bottom: 30px;
+    line-height: 140%;
+    font-size: clamp(1.35rem, 1.35vw, 1.35rem);
+}
+
+.headings-block {
+    width: 100%;
+    max-width: 700px;
+}
+
+
+.choose1 {
+    font-family: 'Romanovsky';
+    cursor: pointer;
+    padding: 18px 30px;
+    width: 100%;
+    max-width: 300px;
+    font-size: clamp(1.25rem, 1.25vw, 1.25rem);
+    border: none;
+    outline: none;
+    background-color: root.$color_main_image;
+    font-weight: 400;
+    color: root.$font_color_white;
+    transition: 0.5s ease;
+    &:hover {
+    background-color: rgba(47, 44, 112, 1);
+    color: rgba(255, 255, 255, 1);
+}
+}
+
+//second section of images
+
+.block-image {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    @extend %flex_justify;
+    flex-direction: column;
+    &-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+}
+
+//third section of images
+
+.block-big-image {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    gap: 20px;
+    aspect-ratio: 32/14.5;
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+
+.img1 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.block-small-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    object-fit: cover;
+    aspect-ratio: 9/14.5;
+}
+

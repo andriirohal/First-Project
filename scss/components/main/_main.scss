@@ -1,0 +1,28 @@
+//header
+
+@use "header/header";
+
+//footer
+
+@use "footer/footer";
+
+//animated sidebar
+
+@use "sidebar/sidebar";
+
+//section 
+
+@use "section/section_block1";
+@use "section/section_block2";
+@use "section/section_block3";
+@use "section/section_block4";
+@use "section/section_block5";
+@use "section/section_block6";
+
+//image 
+
+@use "image-section/image";
+
+//media
+
+@use "media/media_laptop";

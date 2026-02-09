@@ -1,0 +1,158 @@
+@use "../../../base/root" as root;
+@use "../../../mixins/mixins" as mix;
+
+ 
+
+label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
+    display: none;
+}
+
+
+@media (min-width:480px) and (max-width:1000px) {
+
+    nav  {
+         padding: 1.3em;
+    }
+
+label, .checkbox2, 
+.close-sidebar, .open-sidebar {
+        display: block;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .options1 {
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        color: rgba(77, 74, 153, 1);
+    }
+
+    .sidebar-container {
+        gap: 30px;
+        background-color: rgba(187, 176, 206, 1);
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        padding: 30px 35px;
+        width: 300px;
+        height: 100%;
+        transition: 0.75s ease;
+    }
+
+    #checkbox:checked ~ #overlay {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #0000006d;
+    }
+
+    #checkbox:checked~.sidebar-container {
+        left: 0;
+    }
+
+    .checkbox1,
+    .close-sidebar,
+    .open-sidebar {
+        display: block;
+    }
+
+    .options2 {
+        padding-top: 5px;
+    }
+
+    .options1 {
+        font-weight: 400;
+    }
+
+    .checkbox2 {
+        margin-right: auto;
+    
+    }
+
+    .checkbox1 {
+        display: none;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    nav {
+        padding: 1.3em;
+    }
+
+    label,.checkbox2, 
+    .close-sidebar,
+    .open-sidebar {
+        display: block;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .options1 {
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        color: rgba(77, 74, 153, 1);
+    }
+
+    .sidebar-container {
+        gap: 30px;
+        background-color: rgba(187, 176, 206, 1);
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        padding: 30px 35px;
+        width: 250px;
+        height: 100%;
+        transition: 0.75s ease;
+    }
+
+
+    #checkbox:checked ~ #overlay {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #0000006d;
+    }
+
+    #checkbox:checked~.sidebar-container {
+        left: 0;
+    }
+
+    .checkbox1,
+    .close-sidebar,
+    .open-sidebar {
+        display: block;
+    }
+
+          .options2 {
+              padding-top: 5px;
+          }
+
+          .options1 {
+            font-weight: 400;
+          }
+
+    .checkbox2 {
+        margin-right: auto;
+    }
+
+  
+    .checkbox1 {
+        display: none;
+    }
+}

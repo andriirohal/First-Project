@@ -1,0 +1,16 @@
+%flex_align {
+    display: flex;
+    align-items: center;
+}
+
+%flex_justify {
+    display: flex;
+    justify-content: center;
+}
+
+%flex_all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

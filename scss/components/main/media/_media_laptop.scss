@@ -1,0 +1,64 @@
+@use "../../../base/root" as root;
+@use "../../../mixins/mixins" as mix;
+@use "../../../mixins/placeholders" as *;
+
+@media (min-width:1000px) and (max-width:1200px) {
+    .footer-item {
+        display: grid;
+        column-gap: 100px;
+    }
+
+    .footer-list {
+        gap: 130px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1100px) {
+    .section1-block {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(220px, 220px));
+        gap: 40px;
+    }
+
+    .block-border1 {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(800px, 800px));
+    }
+
+    .border-img2, .border-img3, .border-img1 {
+        object-fit: cover;
+        max-width: 800px;
+    }
+
+    .container-reviews {
+       display: grid;
+       grid-template-columns: 1fr;
+       place-items: center;
+    }
+
+    .image-block {
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+   
+    .block-container {
+        margin-top: 40px;
+    }
+
+    .maps {
+        margin-top: 60px;
+    }
+
+   .section6-body-text {
+       text-align: center;
+       padding-bottom: 10px;
+       margin-left: 0;
+   }
+   .container-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 40px;
+   }
+}

@@ -1,0 +1,45 @@
+@use "../../../base/root" as root;
+@use "../../../mixins/mixins" as mix;
+@use "../../../mixins/placeholders" as *;
+
+.section4 {
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+
+.reviews {
+    width: 100%;
+    max-width: 390px;
+    background-color: rgba(187, 176, 206, 1);
+    padding: 13px 20px 25px 20px;
+}
+
+.container-reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+    gap: 20px;
+}
+
+.block-reviews {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.name-of-review {
+    font-family: 'Romanovsky';
+    color: root.$color_main_image;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: clamp(1.2rem, 1.2vw, 1.2rem);
+}
+
+.text-of-review {
+    line-height: 140%;
+    font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+    padding-top: 10px;
+    font-weight: root.$font_weight_sm;
+    color: root.$color_main_image;
+}

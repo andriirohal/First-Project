@@ -3,8 +3,12 @@
 @use "../../../mixins/placeholders" as *;
 
 .section1 {
-    margin-top: 180px;
+    @extend %flex_justify;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem;
     &-block {
+       gap: 40px;
        @extend %flex_justify;
     }
 }
@@ -41,6 +45,7 @@
 }
 
 .choose {
+    text-align: center;
     font-family: 'Romanovsky';
     cursor: pointer;
     padding: 18px 30px;
@@ -50,7 +55,6 @@
     border: none;
     outline: none;
     background-color: root.$color_main_image;
-    margin-top: 90px;
     font-weight: 400;
     color: root.$font_color_white;
     transition: 0.5s ease;
@@ -78,7 +82,6 @@
 }
 
 .section1-list {
-    margin-right: 20px;
     width: 100%;
     max-width: 220px;
     text-align: center;

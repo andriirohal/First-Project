@@ -5,7 +5,7 @@
 //first section of image and headings
 
 .big-container {
-    margin-bottom: 180px;
+    margin: 0 0 8rem 0;
 }
 
 .big-container {
@@ -28,7 +28,7 @@
 
 .some-text {
     text-align: center;
-    font-size: clamp(1rem, 1vw, 1rem);
+    font-size: clamp(0.95rem, 0.95vw, 0.95rem);
     color: root.$font_color_white;
     padding-top: 20px;
     line-height: 140%;
@@ -74,8 +74,7 @@
 //second section of images
 
 .block-image {
-    margin-top: 180px;
-    margin-bottom: 180px;
+    margin: 8rem 0 8rem 0;
     @extend %flex_justify;
     flex-direction: column;
     &-container {

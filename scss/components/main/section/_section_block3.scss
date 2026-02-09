@@ -2,9 +2,14 @@
 @use "../../../mixins/mixins" as mix;
 @use "../../../mixins/placeholders" as *;
 
+.section3 {
+    margin: 8rem;
+}
+
 .container-img {
     display: flex;
     justify-content: center;
+    width: 100%;
     gap: 18px;
 }
 

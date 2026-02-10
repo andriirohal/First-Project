@@ -11,10 +11,22 @@
     margin-bottom: 180px;
     &-block {
        gap: 20px;
+       row-gap: 50px;
        @extend %flex_justify;
     }
 }
 
+.head6 {
+    font-family: 'Romanovsky';
+    text-align: center;
+    color: root.$color_main_image;
+    font-weight: 500;
+    font-size: clamp(2.75rem, 2.75vw, 2.75rem);
+}
+
+.head4 {
+    display: none;
+}
 
 .image {
     width: 100%;

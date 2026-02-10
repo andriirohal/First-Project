@@ -10,10 +10,10 @@
     .big-container1 {
         background-image: url('/images/DSC_8900\ 3\ \(2\).jpg');
         display: block;
-        background-position: center;
+        background-position: center 80%;
         width: 100%;
         background-size: cover;
-        height: 450px;
+        height: 430px;
         display: grid;
         padding: 1.5em;
         place-content: center;
@@ -33,7 +33,7 @@
         }
 
         .headings-block1 {
-            padding: 1.4em 0.5em;
+            padding: 1.45em 0.5em;
             background-color: rgba(0, 0, 0, 0.15);
             border: 0.5px solid rgba(237, 234, 244, 1);
             width: 100%;
@@ -43,7 +43,7 @@
         }
 
         .of-img {
-            max-width: 270px;
+            max-width: 280px;
         }
 
        .form, .some-text1 {
@@ -56,13 +56,13 @@
             line-height: 1.25;
         }
 
-        .section1-block {
-           display: flex;
-           flex-wrap: wrap;
-        }
-
         .section1-img, .image {
             display: none;
+        }
+
+        .section1-block {
+            display: grid;
+            grid-template-columns: 1fr;
         }
 
         .section1-img-mobile, .image-for-mobile {
@@ -72,7 +72,7 @@
         .border-img1-for-mobile {
             display: block;
             width: 100%;
-            max-width: 300px;
+            max-width: 280px;
         }
 
         .border-img2, .border-img1, .border-img3 {
@@ -85,7 +85,7 @@
         }
 
         .block-big-image {
-            gap: 3px;
+            gap: 5px;
         }
 
         .head8 {
@@ -113,7 +113,7 @@
         }
         
         .block-image-container, .block-small-image {
-            gap: 3px;
+            gap: 5px;
         }
 
 
@@ -123,7 +123,7 @@
         }
 
         .head2 {
-            font-size: clamp(1.65rem, 1.65vw, 1.65rem);
+            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
         }
 
         .of-img-h4 {
@@ -135,7 +135,7 @@
         }
  
         .head6 {
-            font-size: clamp(1.75rem, 1.75vw, 1.75rem);
+            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
         }
 
         .head4 {
@@ -156,7 +156,7 @@
             place-items: center;
         }
         .maps {
-            padding-top: 60px;
+            padding-top: 50px;
         }
 
         .block-item, .maps {
@@ -171,22 +171,22 @@
             width: 100%;
         }
 
-        .section4-delivery {
+        .section3-delivery {
             width: 100%;
-            max-width: 320px;
+            max-width: 280px;
         }
 
         .block-container {
             padding-top: 40px;
             width: 100%;
-            max-width: 320px;
+            max-width: 280px;
         }
 
         .footer {
             padding: 4em 3em;
         }
 
-        .section4-body-text {
+        .section3-body-text {
             margin-left: 0;
             margin: auto;
             font-size: clamp(0.85rem, 0.85vw, 0.85rem);
@@ -201,6 +201,10 @@
             gap: 60px;
         }
 
+        .head5 {
+            display: block;
+        }
+
         .medium-heading1 {
             padding-top: 16px;
             line-height: 140%;
@@ -211,6 +215,28 @@
         display: block;
         @include mix.flex_everything;
     }
+        .choose {
+            max-width: 280px;
+            font-size: clamp(1.05rem, 1.05vw, 1.05rem);
+            padding: 15px 30px;
+        }
+    
+        .container-img {
+            gap: 40px;
+        }
+    
+        .vector1 {
+            max-width: 120px;
+        }
+    
+        .some-text1 {
+            text-align: center;
+            font-size: clamp(0.65rem, 0.65vw, 0.65rem);
+            color: root.$font_color_white;
+            padding-top: 20px;
+            line-height: 1.3;
+            font-weight: root.$font_weight_sm;
+        }
 
     .choose2 {
         display: block;
@@ -221,7 +247,7 @@
         font-size: clamp(1.05rem, 1.05vw, 1.05em);
         border: none;
         outline: none;
-        margin-top: 60px;
+        margin-top: 50px;
         background-color: root.$color_main_image;
         font-weight: 400;
         color: root.$font_color_white;
@@ -233,25 +259,3 @@
 }
 }
 
-.choose {
-    max-width: 280px;
-    font-size: clamp(1.05rem, 1.05vw, 1.05rem);
-    padding: 15px 30px;
-}
-
-.container-img {
-    gap: 40px;
-}
-
-.vector1 {
-    max-width: 120px;
-}
-
-.some-text1 {
-    text-align: center;
-    font-size: clamp(0.65rem, 0.65vw, 0.65rem);
-    color: root.$font_color_white;
-    padding-top: 20px;
-    line-height: 1.3;
-    font-weight: root.$font_weight_sm;
-}

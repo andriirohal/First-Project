@@ -3,38 +3,58 @@
 @use "../../../mixins/placeholders" as *;
 
 .section3 {
-    margin: 0 2rem 0 2rem;
+    margin: 0 1.5rem 0 1.5rem;
     margin-top: 180px;
     margin-bottom: 180px;
-}
-
-.container-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-}
-
-.border-img1-for-mobile {
-    display: none;
-}
-
-.block-for-gap {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.of-img {
-    width: 100%;
-    max-width: 460px;
-}
-
-.of-img-h4 {
-    font-family: 'Romanovsky';
+    &_body_text {
     color: root.$color_main_image;
-    font-weight: root.$font_weight_nb;
-    padding-top: 20px;
-    font-size: clamp(1.25rem, 1.25vw, 1.25rem);
-    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: root.$font_weight_sm;
+    text-align: end;
+    font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+    }
+}
+
+
+.section3-body-text {
+    margin-left: auto;
+    padding-bottom: 10px;
+    color: root.$color_main_image;
+    font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+}
+
+.image-block {
+    margin-top: 80px;
+    width: 100%;
+    @include mix.flex_justify;
+}
+
+.head2 {
+    &-head4 {
+        cursor: pointer;
+        font-family: 'Romanovsky';
+        line-height: 140%;
+        font-weight: root.$font_weight_nb;
+        color: root.$color_main_image;
+        font-size: clamp(1rem, 1vw, 1rem);
+    }
+}
+
+
+.block-item {
+    @extend %flex_align;
+    gap: 16px;
+    margin-left: 30px;
+}
+
+.block-container {
+ @include  mix.flex_direction;
+ gap: 16px;
+}
+
+.maps {
+    margin-left: 30px;
+    margin-top: auto;
+    @include mix.flex_direction;
 }

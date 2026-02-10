@@ -2,3 +2,27 @@
 @use "../../../mixins/mixins" as mix;
 @use "../../../mixins/placeholders" as *;
 
+@media (min-width:1000px) and (max-width:1200px) {
+    .footer-list {
+        gap: 130px;
+    }
+
+    .footer-item {
+        column-gap: 90px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+    .footer-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .footer-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0px;
+    }
+}

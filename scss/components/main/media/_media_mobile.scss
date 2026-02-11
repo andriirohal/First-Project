@@ -62,7 +62,7 @@
 
         .section1-block {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(1, minmax(220px, 1fr) );
         }
 
         .section1-img-mobile, .image-for-mobile {
@@ -123,7 +123,7 @@
         }
 
         .head2 {
-            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+            font-size: clamp(1.6rem, 1.6vw, 1.6rem);
         }
 
         .of-img-h4 {
@@ -131,11 +131,11 @@
         }
 
         .head3 {
-            font-size: clamp(0.9rem, 0.9vw, 0.9rem);
+            font-size: clamp(0.8rem, 0.8vw, 0.8rem);
         }
  
         .head6 {
-            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+            font-size: clamp(1.6rem, 1.6vw, 1.6rem);
         }
 
         .head4 {
@@ -231,7 +231,7 @@
     
         .some-text1 {
             text-align: center;
-            font-size: clamp(0.65rem, 0.65vw, 0.65rem);
+            font-size: clamp(0.6rem, 0.6vw, 0.6rem);
             color: root.$font_color_white;
             padding-top: 20px;
             line-height: 1.3;

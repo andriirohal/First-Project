@@ -102,11 +102,11 @@
 
   
    .head-of-image {
-        font-size: clamp(1.15rem, 1.15vw, 1.15rem);
+        font-size: clamp(1.25rem, 1.25vw, 1.15rem);
     }
 
           .body-text {
-              font-size: clamp(0.8rem, 0.8vw, 0.8rem);
+              font-size: clamp(0.875rem, 0.875vw, 0.875rem);
           }
 
     .block-image-container,
@@ -122,7 +122,7 @@
     }
 
     .head2 {
-        font-size: clamp(2.1rem, 2.1vw, 2.1rem);
+        font-size: clamp(2rem, 2vw, 2rem);
     }
 
     .of-img-h4 {
@@ -134,7 +134,7 @@
     }
 
     .head3 {
-        font-size: clamp(1.04rem, 1.04vw, 1.04rem);
+        font-size: clamp(1rem, 1vw, 1rem);
     }
 
     .head6 {
@@ -223,8 +223,8 @@
     }
 
          .choose {
-             max-width: 280px;
-             font-size: clamp(1.05rem, 1.05vw, 1.05rem);
+             max-width: 300px;
+             font-size: clamp(1.15rem, 1.15vw, 1.15rem);
              padding: 15px 30px;
          }
     
@@ -247,7 +247,7 @@
         cursor: pointer;
         padding: 15px 30px;
         width: 100%;
-        font-size: clamp(1.05rem, 1.05vw, 1.05em);
+        font-size: clamp(1.15rem, 1.15vw, 1.15em);
         border: none;
         outline: none;
         margin-top: 50px;
@@ -339,7 +339,7 @@
                      display: block;
                      font-family: 'Romanovsky';
                      cursor: pointer;
-                     padding: 15px 30px;
+                     padding: 16px 30px;
                      width: 100%;
                      font-size: clamp(1.25rem, 1.25vw, 1.25em);
                      border: none;
@@ -404,7 +404,7 @@
         }
     
         .head2 {
-            font-size: clamp(2.35rem, 2.35vw, 2.35rem);
+            font-size: clamp(2.2rem, 2.2vw, 2.2rem);
         }
     
         .of-img-h4 {
@@ -416,11 +416,11 @@
         }
     
         .head3 {
-            font-size: clamp(1.21rem, 1.21vw, 1.21rem);
+            font-size: clamp(1.08rem, 1.08vw, 1.08rem);
         }
 
         .head6 {
-            font-size: clamp(2.35rem, 2.35vw, 2.35rem);
+            font-size: clamp(2.2rem, 2.2vw, 2.2rem);
         }
     
         .head4 {

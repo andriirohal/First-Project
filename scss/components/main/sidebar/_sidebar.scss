@@ -7,10 +7,16 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: none;
 }
 
-@media (min-width:480px) and (max-width:1000px) {
+@media (min-width:480px) and (max-width:1050px) {
 
     nav {
         padding: 1.3em;
+    }
+
+    .header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
     }
 
     label,
@@ -100,6 +106,12 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     nav {
         padding: 1.3em;
     }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
 
     label,.checkbox2, 
     .close-sidebar,

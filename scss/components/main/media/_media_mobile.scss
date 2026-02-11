@@ -29,7 +29,6 @@
 
         .block-container {
             width: 100%;
-            max-width: 500px;
         }
 
         .headings-block1 {
@@ -63,7 +62,7 @@
 
         .section1-block {
             display: grid;
-            grid-template-columns: repeat(1, minmax(220px, 1fr) );
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr) );
         }
 
         .section1-img-mobile, .image-for-mobile {
@@ -81,7 +80,7 @@
 
         .block-border1 {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         }
 
         .block-big-image {
@@ -90,12 +89,6 @@
 
         .head8 {
             display: none;
-        }
-
-        .container-img {
-            display: grid;
-            grid-template-columns: 1fr;
-            place-items: center;
         }
 
         .border-h4, .border1-h4 {
@@ -131,7 +124,7 @@
         }
 
         .head3 {
-            font-size: clamp(0.8rem, 0.8vw, 0.8rem);
+            font-size: clamp(0.825rem, 0.825vw, 0.825rem);
         }
  
         .head6 {
@@ -150,11 +143,11 @@
             font-size: clamp(1.65rem, 1.65vw, 1.65em);
         }
 
-        .image-block {
-            display: grid;
-            grid-template-columns: 1fr;
-            place-items: center;
-        }
+         .image-block {
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+             place-items: center;
+         }
         .maps {
             padding-top: 50px;
         }
@@ -173,13 +166,11 @@
 
         .section3-delivery {
             width: 100%;
-            max-width: 280px;
         }
 
         .block-container {
             padding-top: 40px;
             width: 100%;
-            max-width: 280px;
         }
 
         .footer {
@@ -190,11 +181,6 @@
             margin-left: 0;
             margin: auto;
             font-size: clamp(0.85rem, 0.85vw, 0.85rem);
-        }
-
-        .footer-list, .footer-item {
-            display: grid;
-            grid-template-columns: 1fr;
         }
 
         .footer-list {
@@ -216,7 +202,8 @@
         @include mix.flex_everything;
     }
         .choose {
-            max-width: 270px;
+            width: 100%;
+            max-width: 280px;
             font-size: clamp(1.05rem, 1.05vw, 1.05rem);
             padding: 15px 30px;
         }
@@ -246,7 +233,7 @@
         display: block;
         font-family: 'Romanovsky';
         cursor: pointer;
-        padding: 14px 30px;
+        padding: 13px 30px;
         width: 100%;
         font-size: clamp(1.05rem, 1.05vw, 1.05em);
         border: none;

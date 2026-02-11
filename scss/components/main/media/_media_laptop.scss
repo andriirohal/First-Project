@@ -12,17 +12,24 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1000px) {
+@media (min-width:320px) and (max-width:1050px) {
+    .section3-delivery, .block-container {
+        max-width: 500px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:1000px) {
     .footer-list {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: flex-start;
+        grid-template-columns: repeat(1, minmax(10px, 1fr));
         gap: 50px;
     }
 
     .footer-item {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, minmax(80px, 1fr));
         column-gap: 0px;
     }
 }
+

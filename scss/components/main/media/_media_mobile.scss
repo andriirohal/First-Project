@@ -15,7 +15,7 @@
         background-size: cover;
         height: 430px;
         display: grid;
-        padding: 1.5em;
+        padding: 1em;
         place-content: center;
         z-index: 10;
     }
@@ -33,10 +33,11 @@
         }
 
         .headings-block1 {
-            padding: 1.45em 0.5em;
+            padding: 1.45em 1em;
             background-color: rgba(0, 0, 0, 0.15);
             border: 0.5px solid rgba(237, 234, 244, 1);
             width: 100%;
+            height: 100%;
             max-width: 265px;
             backdrop-filter: blur(1em);
             z-index: 9;
@@ -52,7 +53,7 @@
        }
 
         .big-heading1 {
-            font-size: clamp(1.45rem, 1.45vw, 1.45rem);
+            font-size: clamp(1.48rem, 1.48vw, 1.48rem);
             line-height: 1.25;
         }
 
@@ -123,7 +124,7 @@
         }
 
         .head2 {
-            font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
         }
 
         .of-img-h4 {
@@ -131,11 +132,11 @@
         }
 
         .head3 {
-            font-size: clamp(0.8rem, 0.8vw, 0.8rem);
+            font-size: clamp(0.875rem, 0.875vw, 0.875rem);
         }
  
         .head6 {
-            font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
         }
 
         .head4 {
@@ -217,7 +218,7 @@
     }
         .choose {
             max-width: 280px;
-            font-size: clamp(1.05rem, 1.05vw, 1.05rem);
+            font-size: clamp(1.1rem, 1.1vw, 1.1rem);
             padding: 15px 30px;
         }
     
@@ -238,11 +239,15 @@
             font-weight: root.$font_weight_sm;
         }
 
+        .section1-list {
+            max-width: 250px;
+        }
+
     .choose2 {
         display: block;
         font-family: 'Romanovsky';
         cursor: pointer;
-        padding: 13.5px 30px;
+        padding: 14px 30px;
         width: 100%;
         font-size: clamp(1.05rem, 1.05vw, 1.05em);
         border: none;

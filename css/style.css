@@ -420,7 +420,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 2rem 0 2rem;
+  margin: 0 3rem 0 3rem;
   margin-top: 180px;
   margin-bottom: 180px;
 }
@@ -476,9 +476,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   text-align: center;
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 18px 30px;
+  padding: 17px 30px;
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;
@@ -530,7 +530,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section2 {
-  margin: 0 2rem 0 2rem;
+  margin: 0 3rem 0 3rem;
   margin-top: 180px;
   margin-bottom: 180px;
   display: -webkit-box;
@@ -606,7 +606,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section3 {
-  margin: 0 2rem 0 2rem;
+  margin: 0 3rem 0 3rem;
   margin-top: 180px;
   margin-bottom: 180px;
 }
@@ -736,9 +736,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 .choose1 {
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 18px 30px;
+  padding: 17px 30px;
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;
@@ -927,7 +927,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 350px;
   }
   .head2 {
-    font-size: clamp(2rem, 2vw, 2.3rem);
+    font-size: clamp(2rem, 2vw, 2rem);
   }
   .of-img-h4 {
     font-size: clamp(1rem, 1vw, 1rem);
@@ -1053,7 +1053,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     background-position: center 75%;
     width: 100%;
     background-size: cover;
-    height: 480px;
+    height: 450px;
     display: grid;
     padding: 1.5em;
     place-content: center;
@@ -1079,7 +1079,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     background-color: rgba(0, 0, 0, 0.15);
     border: 0.5px solid rgb(237, 234, 244);
     width: 100%;
-    max-width: 330px;
+    max-width: 300px;
     backdrop-filter: blur(1em);
     z-index: 9;
   }
@@ -1092,7 +1092,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     place-items: center;
   }
   .big-heading1 {
-    font-size: clamp(1.8rem, 1.8vw, 1.8rem);
+    font-size: clamp(1.6rem, 1.6vw, 1.6rem);
     line-height: 1.25;
   }
   .section1-block {
@@ -1114,9 +1114,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: block;
     font-family: "Romanovsky";
     cursor: pointer;
-    padding: 15px 30px;
+    padding: 14px 30px;
     width: 100%;
-    font-size: clamp(1.25rem, 1.25vw, 1.25em);
+    font-size: clamp(1.15rem, 1.15vw, 1.15em);
     border: none;
     outline: none;
     margin-top: 50px;
@@ -1167,19 +1167,19 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 350px;
   }
   .head2 {
-    font-size: clamp(2.2rem, 2.2vw, 2.2rem);
+    font-size: clamp(2rem, 2vw, 2rem);
   }
   .of-img-h4 {
-    font-size: clamp(1.15rem, 1.15vw, 1.15rem);
+    font-size: clamp(1rem, 1vw, 1rem);
   }
   .head5 {
     display: none;
   }
   .head3 {
-    font-size: clamp(1.08rem, 1.08vw, 1.08rem);
+    font-size: clamp(1rem, 1vw, 1rem);
   }
   .head6 {
-    font-size: clamp(2.2rem, 2.2vw, 2.2rem);
+    font-size: clamp(2rem, 2vw, 2rem);
   }
   .head4 {
     display: block;
@@ -1222,7 +1222,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .medium-heading1 {
     padding-top: 16px;
     line-height: 140%;
-    font-size: clamp(1.2rem, 1.2vw, 1.2rem);
+    font-size: clamp(1rem, 1vw, 1rem);
   }
   .section1-list {
     max-width: 350px;

@@ -413,7 +413,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 1.5rem 0 1.5rem;
+  margin: 0 2rem 0 2rem;
   margin-top: 180px;
   margin-bottom: 180px;
 }
@@ -523,7 +523,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section2 {
-  margin: 0 1.5em 0 1.5rem;
+  margin: 0 2em 0 2rem;
   margin-top: 180px;
   margin-bottom: 180px;
   display: -webkit-box;
@@ -599,7 +599,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section3 {
-  margin: 0 1.5rem 0 1.5rem;
+  margin: 0 2rem 0 2rem;
   margin-top: 180px;
   margin-bottom: 180px;
 }
@@ -887,7 +887,6 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .border-img1-for-mobile {
     display: block;
     width: 100%;
-    max-width: 450px;
   }
   .border-img2,
   .border-img1,
@@ -1134,7 +1133,6 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .border-img1-for-mobile {
     display: block;
     width: 100%;
-    max-width: 600px;
   }
   .border-img2,
   .border-img1,
@@ -1324,7 +1322,6 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .border-img1-for-mobile {
     display: block;
     width: 100%;
-    max-width: 280px;
   }
   .border-img2, .border-img1, .border-img3 {
     display: none;
@@ -1363,16 +1360,16 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 240px;
   }
   .head2 {
-    font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+    font-size: clamp(1.65rem, 1.65vw, 1.65rem);
   }
   .of-img-h4 {
     font-size: clamp(0.9rem, 0.9vw, 0.9rem);
   }
   .head3 {
-    font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+    font-size: clamp(0.8rem, 0.8vw, 0.8rem);
   }
   .head6 {
-    font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+    font-size: clamp(1.65rem, 1.65vw, 1.65rem);
   }
   .head4 {
     display: block;
@@ -1451,8 +1448,8 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             flex-direction: column;
   }
   .choose {
-    max-width: 280px;
-    font-size: clamp(1.1rem, 1.1vw, 1.1rem);
+    max-width: 270px;
+    font-size: clamp(1.05rem, 1.05vw, 1.05rem);
     padding: 15px 30px;
   }
   .container-img {

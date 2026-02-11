@@ -73,7 +73,6 @@
         .border-img1-for-mobile {
             display: block;
             width: 100%;
-            max-width: 280px;
         }
 
         .border-img2, .border-img1, .border-img3 {
@@ -124,7 +123,7 @@
         }
 
         .head2 {
-            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+            font-size: clamp(1.65rem, 1.65vw, 1.65rem);
         }
 
         .of-img-h4 {
@@ -132,11 +131,11 @@
         }
 
         .head3 {
-            font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+            font-size: clamp(0.8rem, 0.8vw, 0.8rem);
         }
  
         .head6 {
-            font-size: clamp(1.7rem, 1.7vw, 1.7rem);
+            font-size: clamp(1.65rem, 1.65vw, 1.65rem);
         }
 
         .head4 {
@@ -217,8 +216,8 @@
         @include mix.flex_everything;
     }
         .choose {
-            max-width: 280px;
-            font-size: clamp(1.1rem, 1.1vw, 1.1rem);
+            max-width: 270px;
+            font-size: clamp(1.05rem, 1.05vw, 1.05rem);
             padding: 15px 30px;
         }
     

@@ -1360,7 +1360,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .image-for-mobile, .section1-img-mobile {
     width: 100%;
-    max-width: 300px;
+    max-width: 240px;
   }
   .head2 {
     font-size: clamp(1.7rem, 1.7vw, 1.7rem);
@@ -1470,7 +1470,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     font-weight: 300;
   }
   .section1-list {
-    max-width: 250px;
+    max-width: 240px;
   }
   .choose2 {
     display: block;

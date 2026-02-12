@@ -479,9 +479,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   text-align: center;
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 17px 30px;
+  padding: 16.5px 30px;
   width: 100%;
   max-width: 320px;
+  letter-spacing: 1px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;
@@ -758,8 +759,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 .choose1 {
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 17px 30px;
+  padding: 16.5px 30px;
   width: 100%;
+  letter-spacing: 1px;
   max-width: 320px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
@@ -1037,9 +1039,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             flex-direction: column;
   }
   .choose {
-    max-width: 310px;
+    max-width: 320px;
+    letter-spacing: 1px;
     font-size: clamp(1.25rem, 1.25vw, 1.25rem);
-    padding: 15px 30px;
+    padding: 16.5px 30px;
   }
   .container-img {
     gap: 40px;
@@ -1056,6 +1059,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: block;
     font-family: "Romanovsky";
     cursor: pointer;
+    letter-spacing: 1px;
     padding: 14px 30px;
     width: 100%;
     font-size: clamp(1.15rem, 1.15vw, 1.15em);
@@ -1169,6 +1173,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .choose {
     width: 100%;
     max-width: 260px;
+    letter-spacing: 1px;
     font-size: clamp(1.05rem, 1.05vw, 1.05rem);
     padding: 13px;
   }
@@ -1186,6 +1191,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .choose2 {
     display: block;
     font-family: "Romanovsky";
+    letter-spacing: 1px;
     cursor: pointer;
     padding: 13px;
     width: 100%;

@@ -6,10 +6,7 @@
     margin: 0 3rem 0 3rem;
     margin-top: 180px;
     margin-bottom: 180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include mix.flex_everything;
 }
 
 .border-h4, .border1-h4 {

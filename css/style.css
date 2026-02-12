@@ -55,7 +55,7 @@ nav {
   margin-bottom: 20px;
 }
 
-.block-item {
+.block-item, .footer-list, .footer-container, .for-flex-direction {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,12 +94,6 @@ nav {
   background-color: rgb(77, 74, 153);
 }
 .footer-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -116,12 +110,6 @@ nav {
   grid-template-columns: repeat(3, 1fr);
 }
 .footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 60px;
   width: 100%;
   max-width: 1100px;
@@ -219,12 +207,6 @@ nav {
 }
 
 .for-flex-direction {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 10px;
 }
 
@@ -536,16 +518,16 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .border-h4, .border1-h4 {
@@ -680,7 +662,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   width: 100%;
   background-size: cover;
   height: 630px;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   place-content: center;
   z-index: 10;
 }
@@ -844,9 +828,11 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     width: 100%;
     background-size: cover;
     height: 450px;
-    display: grid;
-    padding: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     place-content: center;
+    padding: 1.5em;
     z-index: 10;
   }
   .big-heading1,
@@ -1054,9 +1040,11 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     width: 100%;
     background-size: cover;
     height: 450px;
-    display: grid;
-    padding: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     place-content: center;
+    padding: 1.5em;
     z-index: 10;
   }
   .big-heading1,
@@ -1269,9 +1257,11 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     width: 100%;
     background-size: cover;
     height: 430px;
-    display: grid;
-    padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     place-content: center;
+    padding: 1em;
     z-index: 10;
   }
   .big-heading1, .medium-heading1 {

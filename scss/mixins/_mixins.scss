@@ -32,3 +32,8 @@
     display: flex;
     flex-direction: column;
 }
+
+@mixin grid-center {
+    display: flex;
+    place-content: center;
+}

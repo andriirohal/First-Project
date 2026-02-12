@@ -14,9 +14,8 @@
         width: 100%;
         background-size: cover;
         height: 450px;
-        display: grid;
+        @include mix.grid-center;
         padding: 1.5em;
-        place-content: center;
         z-index: 10;
     }
 
@@ -254,9 +253,8 @@
             width: 100%;
             background-size: cover;
             height: 450px;
-            display: grid;
+            @include mix.grid-center;
             padding: 1.5em;
-            place-content: center;
             z-index: 10;
         }
     

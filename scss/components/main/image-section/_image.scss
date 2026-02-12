@@ -10,8 +10,7 @@
     width: 100%;
     background-size: cover;
     height: 630px;
-    display: grid;
-    place-content: center;
+    @include mix.grid-center;
     z-index: 10;
 }
 

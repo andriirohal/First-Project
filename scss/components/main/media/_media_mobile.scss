@@ -14,9 +14,8 @@
         width: 100%;
         background-size: cover;
         height: 430px;
-        display: grid;
+        @include mix.grid-center;
         padding: 1em;
-        place-content: center;
         z-index: 10;
     }
 

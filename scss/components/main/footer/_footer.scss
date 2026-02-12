@@ -11,8 +11,7 @@
     font-size: clamp(0.75rem, 0.75vw, 0.75rem);
     background-color: root.$color_main_image;
     &-list {
-        display: flex;
-        align-items: center;
+        @extend %flex_align;
         flex: 1;
         gap: 200px;
         width: 100%;
@@ -25,8 +24,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     &-container {
-        display: flex;
-        align-items: center;
+        @extend %flex_align;
         margin-top: 60px;
         width: 100%;
         max-width: 1100px;
@@ -45,8 +43,7 @@
     }
 
     .container-of-form {
-        display: flex;
-        flex-direction: column;
+        @include mix.flex_direction;
     }
 
 .text-of-email {
@@ -76,8 +73,7 @@
 }
 
 .form-email {
-    display: flex;
-    flex-direction: column;
+    @include mix.flex_direction;
     width: 100%;
     max-width: 1100px;
 }
@@ -99,8 +95,7 @@
 }
 
 .for-flex-direction {
-    display: flex;
-    align-items: center;
+    @extend %flex_align;
     padding-top: 10px;
 }
 

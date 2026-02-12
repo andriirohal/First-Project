@@ -3,6 +3,7 @@
 @use "../../../mixins/placeholders" as *;
 
 .footer {
+    width: 100%;
     @include mix.flex1;
     align-items: center;
     padding: 4em;

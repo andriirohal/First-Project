@@ -3,8 +3,8 @@
 @use "../../../mixins/placeholders" as *;
 
 .section3 {
-    margin: 0 3rem 0 3rem;
-    margin-top: 180px;
+    @include mix.flex-everything;
+    margin: 0 1.5rem 0 1.5rem;
     margin-bottom: 180px;
     &_body_text {
     color: root.$color_main_image;
@@ -25,10 +25,12 @@
 }
 
 .image-block {
+    margin: auto;
     margin-top: 80px;
     width: 100%;
     @include mix.flex_justify;
 }
+
 
 .head2 {
     &-head4 {
@@ -50,11 +52,14 @@
 
 .block-container {
  @include mix.flex_direction;
+ flex: 1;
  gap: 16px;
 }
 
 .maps {
     margin-left: 30px;
+    width: 100%;
+    max-width: 460px;
     margin-top: auto;
     @include mix.flex_direction;
 }

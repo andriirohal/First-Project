@@ -10,8 +10,10 @@
     width: 100%;
     background-size: cover;
     height: 630px;
-    @include mix.grid-center;
+    display: grid;
+    place-items: center;
     z-index: 10;
+    margin-bottom: 180px;
 }
 
 .big-container1 {

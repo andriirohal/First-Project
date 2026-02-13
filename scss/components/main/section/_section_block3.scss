@@ -3,8 +3,8 @@
 @use "../../../mixins/placeholders" as *;
 
 .section3 {
+    padding: 0 2rem 0 2rem;
     @include mix.flex-everything;
-    margin: 0 1.5rem 0 1.5rem;
     margin-bottom: 180px;
     &_body_text {
     color: root.$color_main_image;
@@ -22,6 +22,11 @@
     padding-bottom: 10px;
     color: root.$color_main_image;
     font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+}
+
+.section3-delivery {
+    width: 100%;
+    max-width: 450px;
 }
 
 .image-block {

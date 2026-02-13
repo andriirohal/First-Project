@@ -417,6 +417,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section1 {
+  padding: 0 2rem 0 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -424,7 +425,6 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 1.5rem 0 1.5rem;
   margin-bottom: 180px;
 }
 .section1-block {
@@ -534,7 +534,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section2 {
-  margin: 0 1.5rem 0 1.5rem;
+  padding: 0 2rem 0 2rem;
   margin-bottom: 180px;
   margin-top: 180px;
   display: -webkit-box;
@@ -610,6 +610,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section3 {
+  padding: 0 2rem 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,7 +624,6 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 1.5rem 0 1.5rem;
   margin-bottom: 180px;
 }
 .section3_body_text {
@@ -640,6 +640,11 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   padding-bottom: 10px;
   color: rgb(77, 74, 153);
   font-size: clamp(0.875rem, 0.875vw, 0.875rem);
+}
+
+.section3-delivery {
+  width: 100%;
+  max-width: 450px;
 }
 
 .image-block {
@@ -697,7 +702,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .big-container {
-  background-image: url("/images/DSC_8900 3 (1).jpg");
+  background-image: url("/images/DSC_8900 3 (3).jpg");
   background-position: center;
   width: 100%;
   background-size: cover;
@@ -856,8 +861,12 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .big-container {
     display: none;
   }
+  .section1 {
+    width: 100%;
+    max-width: 750px;
+  }
   .big-container1 {
-    background-image: url("/images/DSC_8900 3 (2).jpg");
+    background-image: url("/images/DSC_8900 3 (4).jpg");
     display: block;
     background-position: center 75%;
     width: 100%;
@@ -1039,10 +1048,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             flex-direction: column;
   }
   .choose {
-    max-width: 320px;
+    max-width: 300px;
     letter-spacing: 1px;
-    font-size: clamp(1.25rem, 1.25vw, 1.25rem);
-    padding: 16.5px 30px;
+    font-size: clamp(1.15rem, 1.15vw, 1.15rem);
+    padding: 14px 30px;
   }
   .container-img {
     gap: 40px;
@@ -1077,12 +1086,17 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     color: rgb(255, 255, 255);
   }
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .section1-block {
+    max-width: 350px;
+  }
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .big-container {
     display: none;
   }
   .big-container1 {
-    background-image: url("/images/DSC_8900 3 (2).jpg");
+    background-image: url("/images/DSC_8900 3 (4).jpg");
     display: block;
     background-position: center 80%;
     width: 100%;
@@ -1121,6 +1135,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .border1-h4 {
     font-size: clamp(1rem, 1vw, 1rem);
   }
+  .block-image-container {
+    gap: 5px;
+  }
   .head-of-image {
     font-size: 1rem;
   }
@@ -1138,6 +1155,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .head6 {
     font-size: clamp(1.48rem, 1.48vw, 1.48rem);
+  }
+  .section3-delivery, .block-container {
+    width: 100%;
+    max-width: 250px;
   }
   .head4 {
     display: block;
@@ -1174,8 +1195,8 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     width: 100%;
     max-width: 260px;
     letter-spacing: 1px;
-    font-size: clamp(1.05rem, 1.05vw, 1.05rem);
-    padding: 13px;
+    font-size: clamp(1rem, 1vw, 1rem);
+    padding: 13px 20px;
   }
   .vector1 {
     max-width: 120px;
@@ -1188,6 +1209,12 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     line-height: 1.3;
     font-weight: 300;
   }
+  .image-for-mobile,
+  .section1-img-mobile,
+  .section1-list {
+    width: 100%;
+    max-width: 220px;
+  }
   .choose2 {
     display: block;
     font-family: "Romanovsky";
@@ -1195,7 +1222,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     cursor: pointer;
     padding: 13px;
     width: 100%;
-    font-size: clamp(1.05rem, 1.05vw, 1.05em);
+    font-size: clamp(1rem, 1vw, 1em);
     border: none;
     outline: none;
     margin-top: 50px;

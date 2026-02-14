@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Oranienbaum&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @font-face {
   font-family: "Romanovsky";
-  src: url(../../fonts/romanovsky.woff2);
+  src: url(../fonts/romanovsky.woff2);
   font-weight: normal;
   font-style: normal;
 }
 * {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -417,7 +417,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section1 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 1.5rem 0 1.5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -482,7 +482,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   padding: 16px;
   width: 100%;
   max-width: 320px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;
@@ -534,7 +534,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section2 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 1.5rem 0 1.5rem;
   margin-bottom: 180px;
   margin-top: 180px;
   display: -webkit-box;
@@ -610,7 +610,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section3 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 1.5rem 0 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,7 +702,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .big-container {
-  background-image: url("/images/DSC_8900 3 (3).jpg");
+  background-image: url("/images/DSC_8900-3-5.jpg");
   background-position: center;
   width: 100%;
   background-size: cover;
@@ -766,7 +766,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   cursor: pointer;
   padding: 16px;
   width: 100%;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   max-width: 320px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
@@ -866,7 +866,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 750px;
   }
   .big-container1 {
-    background-image: url("/images/DSC_8900 3 (4).jpg");
+    background-image: url("/images/DSC_8900-3-4-.jpg");
     display: block;
     background-position: center 75%;
     width: 100%;
@@ -918,7 +918,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     -webkit-column-gap: 20px;
        -moz-column-gap: 20px;
             column-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .section1-img,
   .image {
@@ -965,7 +965,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     font-size: clamp(1rem, 1vw, 1rem);
   }
   .head6 {
-    font-size: clamp(2rem, 2vw, 2rem);
+    font-size: clamp(2.2rem, 2.2vw, 2.2rem);
   }
   .head4 {
     display: block;
@@ -1041,8 +1041,8 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             flex-direction: column;
   }
   .choose {
-    max-width: 290px;
-    letter-spacing: 1px;
+    max-width: 300px;
+    letter-spacing: 1.5px;
     font-size: clamp(1.15rem, 1.15vw, 1.15rem);
     padding: 14px 10px;
   }
@@ -1061,7 +1061,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: block;
     font-family: "Romanovsky";
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     padding: 14px 30px;
     width: 100%;
     font-size: clamp(1.15rem, 1.15vw, 1.15em);
@@ -1089,7 +1089,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: none;
   }
   .big-container1 {
-    background-image: url("/images/DSC_8900 3 (4).jpg");
+    background-image: url("/images/DSC_8900-3-4-.jpg");
     display: block;
     background-position: center 80%;
     width: 100%;
@@ -1147,7 +1147,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     font-size: clamp(0.8rem, 0.8vw, 0.8rem);
   }
   .head6 {
-    font-size: clamp(1.6rem, 1.6vw, 1.6rem);
+    font-size: clamp(1.8rem, 1.8vw, 1.8rem);
   }
   .section3-delivery, .block-container {
     width: 100%;
@@ -1185,8 +1185,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .choose {
     width: 100%;
-    max-width: 270px;
-    letter-spacing: 1px;
+    max-width: 275px;
     font-size: clamp(1.05rem, 1.05vw, 1.05rem);
     padding: 13px 10px;
   }
@@ -1203,13 +1202,13 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .image-for-mobile, .section1-img-mobile, .section1-list {
     width: 100%;
-    max-width: 230px;
+    max-width: 220px;
   }
   .choose2 {
     display: block;
     font-family: "Romanovsky";
-    letter-spacing: 1px;
     cursor: pointer;
+    letter-spacing: 1.5px;
     padding: 13px 10px;
     width: 100%;
     font-size: clamp(1rem, 1vw, 1em);

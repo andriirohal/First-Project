@@ -479,9 +479,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   text-align: center;
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 16.5px 30px;
+  padding: 16px 30px;
   width: 100%;
-  max-width: 320px;
+  max-width: 315px;
   letter-spacing: 1px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
@@ -644,7 +644,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 
 .section3-delivery {
   width: 100%;
-  max-width: 450px;
+  max-width: 460px;
 }
 
 .image-block {
@@ -764,10 +764,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 .choose1 {
   font-family: "Romanovsky";
   cursor: pointer;
-  padding: 16.5px 30px;
+  padding: 16px 30px;
   width: 100%;
   letter-spacing: 1px;
-  max-width: 320px;
+  max-width: 315px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;

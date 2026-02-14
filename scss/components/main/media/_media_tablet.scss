@@ -2,7 +2,7 @@
 @use "../../../mixins/mixins" as mix;
 @use "../../../mixins/placeholders" as *;
 
-@media (min-width:320px) and (max-width:1000px) {
+@media (min-width:320px) and (max-width:1024px) {
     .big-container {
         display: none;
     }

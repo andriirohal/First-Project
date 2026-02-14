@@ -8,7 +8,7 @@
 }
 
 .section1 {
-    padding: 0 2.5rem 0 2.5rem;
+    padding: 0 2rem 0 2rem;
     @extend %flex_justify;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@
     text-align: center;
     font-family: 'Romanovsky';
     cursor: pointer;
-    padding: 16px 30px;
+    padding: 16px;
     width: 100%;
     max-width: 320px;
     letter-spacing: 1px;

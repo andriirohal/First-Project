@@ -3,7 +3,7 @@
 @use "../../../mixins/placeholders" as *;
 
 .section3 {
-    padding: 0 2rem 0 2rem;
+    padding: 0 2.5rem 0 2.5rem;
     @include mix.flex-everything;
     margin-bottom: 180px;
     &_body_text {

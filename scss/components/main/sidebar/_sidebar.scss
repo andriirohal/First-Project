@@ -7,7 +7,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: none;
 }
 
-@media (min-width:480px) and (max-width:1050px) {
+@media (min-width:480px) and (max-width:1000px) {
 
     nav {
         padding: 1.3em;
@@ -41,7 +41,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
         transition: 0.2s linear;
         &:hover {
         padding: 12px;
-        font-weight: 500;
+        font-weight: 450;
         margin: 0 0 0 -12px;
         background-color: #fff;
         border-radius: 30px;
@@ -135,7 +135,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
         &:hover {
         padding: 12px;
         margin: 0 0 0 -12px;
-        font-weight: 500;
+        font-weight: 450;
         background-color: #fff;
         border-radius: 30px;
             }

@@ -68,7 +68,7 @@
     }
 
     .head2 {
-        font-size: clamp(1.48rem, 1.48vw, 1.48rem);
+        font-size: clamp(1.6rem, 1.6vw, 1.6rem);
     }
 
     .of-img-h4 {
@@ -76,16 +76,15 @@
     }
 
     .head3 {
-        font-size: clamp(0.75rem, 0.75vw, 0.75rem);
+        font-size: clamp(0.8rem, 0.8vw, 0.8rem);
     }
 
     .head6 {
-        font-size: clamp(1.48rem, 1.48vw, 1.48rem);
+        font-size: clamp(1.6rem, 1.6vw, 1.6rem);
     }
 
     .section3-delivery, .block-container {
         width: 100%;
-        max-width: 250px;
     }
 
     .head4 {
@@ -126,7 +125,7 @@
         max-width: 260px;
         letter-spacing: 1px;
         font-size: clamp(1rem, 1vw, 1rem);
-        padding: 13px 20px;
+        padding: 13px 10px;
     }
         
  
@@ -143,19 +142,17 @@
         font-weight: root.$font_weight_sm;
     }
 
-        .image-for-mobile,
-        .section1-img-mobile,
-        .section1-list {
-            width: 100%;
-            max-width: 220px;
-        }
+    .image-for-mobile, .section1-img-mobile, .section1-list {
+      width: 100%;
+      max-width: 220px;
+    }
 
     .choose2 {
         display: block;
         font-family: 'Romanovsky';
         letter-spacing: 1px;
         cursor: pointer;
-        padding: 13px;
+        padding: 13px 10px;
         width: 100%;
         font-size: clamp(1rem, 1vw, 1em);
         border: none;

@@ -230,7 +230,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   display: none;
 }
 
-@media (min-width: 480px) and (max-width: 1050px) {
+@media (min-width: 480px) and (max-width: 1000px) {
   nav {
     padding: 1.3em;
   }
@@ -263,7 +263,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .options1:hover {
     padding: 12px;
-    font-weight: 500;
+    font-weight: 450;
     margin: 0 0 0 -12px;
     background-color: #fff;
     border-radius: 30px;
@@ -348,7 +348,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   .options1:hover {
     padding: 12px;
     margin: 0 0 0 -12px;
-    font-weight: 500;
+    font-weight: 450;
     background-color: #fff;
     border-radius: 30px;
   }
@@ -417,7 +417,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section1 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 2.5rem 0 2.5rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -534,7 +534,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section2 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 2.5rem 0 2.5rem;
   margin-bottom: 180px;
   margin-top: 180px;
   display: -webkit-box;
@@ -610,7 +610,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .section3 {
-  padding: 0 2rem 0 2rem;
+  padding: 0 2.5rem 0 2.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -857,7 +857,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             column-gap: 0px;
   }
 }
-@media (min-width: 320px) and (max-width: 1050px) {
+@media (min-width: 320px) and (max-width: 1000px) {
   .big-container {
     display: none;
   }
@@ -915,9 +915,9 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     place-items: center;
     width: 100%;
     row-gap: 50px;
-    -webkit-column-gap: 25px;
-       -moz-column-gap: 25px;
-            column-gap: 25px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
   .section1-img,
@@ -941,18 +941,11 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: grid;
     grid-template-columns: repeat(1, minmax(220px, 1fr));
   }
-  .block-big-image {
-    gap: 5px;
-  }
   .head-of-image {
     font-size: clamp(1.25rem, 1.25vw, 1.15rem);
   }
   .body-text {
     font-size: clamp(0.875rem, 0.875vw, 0.875rem);
-  }
-  .block-image-container,
-  .block-small-image {
-    gap: 10px;
   }
   .image-for-mobile,
   .section1-img-mobile, .section1-list {
@@ -1048,10 +1041,10 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
             flex-direction: column;
   }
   .choose {
-    max-width: 300px;
+    max-width: 290px;
     letter-spacing: 1px;
     font-size: clamp(1.15rem, 1.15vw, 1.15rem);
-    padding: 14px 30px;
+    padding: 14px 10px;
   }
   .container-img {
     gap: 40px;
@@ -1145,20 +1138,19 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     font-size: clamp(0.75rem, 0.75vw, 0.75rem);
   }
   .head2 {
-    font-size: clamp(1.48rem, 1.48vw, 1.48rem);
+    font-size: clamp(1.6rem, 1.6vw, 1.6rem);
   }
   .of-img-h4 {
     font-size: clamp(0.9rem, 0.9vw, 0.9rem);
   }
   .head3 {
-    font-size: clamp(0.75rem, 0.75vw, 0.75rem);
+    font-size: clamp(0.8rem, 0.8vw, 0.8rem);
   }
   .head6 {
-    font-size: clamp(1.48rem, 1.48vw, 1.48rem);
+    font-size: clamp(1.6rem, 1.6vw, 1.6rem);
   }
   .section3-delivery, .block-container {
     width: 100%;
-    max-width: 250px;
   }
   .head4 {
     display: block;
@@ -1196,7 +1188,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 260px;
     letter-spacing: 1px;
     font-size: clamp(1rem, 1vw, 1rem);
-    padding: 13px 20px;
+    padding: 13px 10px;
   }
   .vector1 {
     max-width: 120px;
@@ -1209,9 +1201,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     line-height: 1.3;
     font-weight: 300;
   }
-  .image-for-mobile,
-  .section1-img-mobile,
-  .section1-list {
+  .image-for-mobile, .section1-img-mobile, .section1-list {
     width: 100%;
     max-width: 220px;
   }
@@ -1220,7 +1210,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     font-family: "Romanovsky";
     letter-spacing: 1px;
     cursor: pointer;
-    padding: 13px;
+    padding: 13px 10px;
     width: 100%;
     font-size: clamp(1rem, 1vw, 1em);
     border: none;

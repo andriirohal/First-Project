@@ -1185,7 +1185,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .choose {
     width: 100%;
-    max-width: 265px;
+    max-width: 270px;
     letter-spacing: 1px;
     font-size: clamp(1.05rem, 1.05vw, 1.05rem);
     padding: 13px 10px;

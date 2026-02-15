@@ -80,7 +80,7 @@
     transition: 0.5s ease;
     &:hover {
     background-color: rgba(47, 44, 112, 1);
-    color: rgba(255, 255, 255, 1);
+    color: root.$font_color_white;
 }
 }
 

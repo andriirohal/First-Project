@@ -777,7 +777,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 .choose1:hover {
   background-color: rgb(47, 44, 112);
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 .choose2, .some-text2 {
@@ -1180,7 +1180,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   }
   .choose {
     width: 100%;
-    max-width: 270px;
+    max-width: 265px;
     font-size: clamp(1.05rem, 1.05vw, 1.05rem);
     padding: 13px 10px;
   }

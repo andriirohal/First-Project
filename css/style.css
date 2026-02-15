@@ -702,7 +702,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
 }
 
 .big-container {
-  background-image: url("../../../../images/DSC_8900-3-5.jpg");
+  background-image: url("../../../images/DSC_8900-3-5.jpg");
   background-position: center;
   width: 100%;
   background-size: cover;
@@ -866,7 +866,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     max-width: 750px;
   }
   .big-container1 {
-    background-image: url("../../../../images/DSC_8900-3-4-.jpg");
+    background-image: url("../../../images/DSC_8900-3-4-.jpg");
     display: block;
     background-position: center 75%;
     width: 100%;
@@ -1089,7 +1089,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
     display: none;
   }
   .big-container1 {
-    background-image: url("../../../../images/DSC_8900-3-4-.jpg");
+    background-image: url("../../../images/DSC_8900-3-4-.jpg");
     display: block;
     background-position: center 80%;
     width: 100%;

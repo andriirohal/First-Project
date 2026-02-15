@@ -87,18 +87,6 @@
         width: 100%;
     }
 
-    .head4 {
-        display: block;
-        font-family: 'Romanovsky';
-        text-align: center;
-        color: root.$color_main_image;
-        font-weight: 500;
-        padding-top: 10px;
-        line-height: 1.2;
-        width: 100%;
-        font-size: clamp(1.45rem, 1.45vw, 1.45em);
-    }
-
     .image-block {
         display: flex;
         flex-wrap: wrap;
@@ -120,9 +108,16 @@
         font-size: clamp(0.9rem, 0.9vw, 0.9rem);
     }
 
+    .image-for-mobile,
+    .section1-img-mobile,
+    .section1-list {
+        width: 100%;
+        max-width: 220px;
+        }
+
     .choose {
         width: 100%;
-        max-width: 275px;
+        max-width: 270px;
         font-size: clamp(1.05rem, 1.05vw, 1.05rem);
         padding: 13px 10px;
     }
@@ -140,11 +135,6 @@
         line-height: 1.3;
         font-weight: root.$font_weight_sm;
     }
-
-         .image-for-mobile, .section1-img-mobile, .section1-list {
-           width: 100%;
-           max-width: 220px;
-         }
 
     .choose2 {
         display: block;

@@ -68,7 +68,7 @@
         display: grid;
         place-items: center;
         width: 100%;
-        row-gap: 50px;
+        row-gap: 40px;
         column-gap: 20px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -111,7 +111,7 @@
         .image-for-mobile,
         .section1-img-mobile, .section1-list {
             width: 100%;
-            max-width: 400px;
+            max-width: 325px;
         }
 
     .head2 {
@@ -207,7 +207,7 @@
     }
 
          .choose {
-             max-width: 300px;
+             max-width: 295px;
              letter-spacing: 1.5px;
              font-size: clamp(1.15rem, 1.15vw, 1.15rem);
              padding: 14px 10px;
@@ -251,6 +251,6 @@
 
 @media (min-width:320px) and (max-width:768px) {
     .section1-block {
-        max-width: 350px;
+        max-width: 300px;
     }
 }

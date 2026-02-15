@@ -6,8 +6,8 @@
   font-style: normal;
 }
 * {
-  -webkit-transition: all 0.75s ease;
-  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -480,7 +480,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   cursor: pointer;
   padding: 16px;
   width: 100%;
-  max-width: 310px;
+  max-width: 315px;
   letter-spacing: 1.5px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
@@ -765,7 +765,7 @@ label, .checkbox1, .open_sidebar, .close_sidebar, .options1 {
   padding: 16px;
   width: 100%;
   letter-spacing: 1.5px;
-  max-width: 310px;
+  max-width: 315px;
   font-size: clamp(1.25rem, 1.25vw, 1.25rem);
   border: none;
   outline: none;
